@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import BuildItem from '../UI/BuildItem.vue'
+import BuildItem from './BuildItem.vue'
 
 export default {
   components: {

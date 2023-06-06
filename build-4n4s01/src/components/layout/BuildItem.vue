@@ -14,12 +14,15 @@
 </template>
 
 <script>
-import ItemPicture from './ItemPicture.vue'
-import ItemDescription from './ItemDescription.vue'
-import ItemName from './ItemName.vue'
-import ItemPrice from './ItemPrice.vue'
+import ItemPicture from '../UI/ItemPicture.vue'
+import ItemDescription from '../UI/ItemDescription.vue'
+import ItemName from '../UI/ItemName.vue'
+import ItemPrice from '../UI/ItemPrice.vue'
 
 export default {
+  // props: [
+  //   'imgUrl'
+  // ],
   components: {
     ItemPicture,
     ItemDescription,
